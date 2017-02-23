@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DroidRush project by Jatin and Manveer -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+    <LinearLayout style="?android:buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton style="?android:buttonBarButtonStyle"
+            android:id="@+id/photo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/camera"
+            />
+        <ImageButton style="?android:buttonBarButtonStyle"
+            android:id="@+id/voice"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/voice" />
+
+        <!-- <ImageButton style="?android:buttonBarButtonStyle"
+            android:id="@+id/contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/contact"
+            android:src="@drawable/contact"
+            /> -->
+        <ImageView
+            android:id="@+id/profilepic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:layout_gravity="right"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edit_text_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/button_send"
+            android:background="@drawable/oval"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:elevation="10dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="12dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/send_button"
+            />
+    </LinearLayout>
+
+</LinearLayout>

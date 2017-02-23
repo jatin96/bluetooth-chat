@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DroidRush project by Jatin and Manveer -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/secure_connect_scan"
+        android:icon="@drawable/ic_action_device_access_bluetooth_searching"
+        android:showAsAction="never"
+        android:title="@string/secure_connect"/>
+
+    <item
+        android:id="@+id/insecure_connect_scan"
+        android:showAsAction="never"
+        android:title="@string/insecure_connect"/>
+
+    <item
+        android:id="@+id/discoverable"
+        android:showAsAction="never"
+        android:title="@string/discoverable"/>
+
+</menu>
+<!-- From: file:/C:/Users/user/AndroidStudioProjects/BluetoothChat2/Application/src/main/res/menu/bluetooth_chat.xml -->
