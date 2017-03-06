@@ -41,7 +41,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src="BluetoothChat2/screenshots/1-launch.png" height="400" alt="Screenshot"/> <img src="screenshots/2-devices.png" height="400" alt="Screenshot"/> <img src="screenshots/3-chat.png" height="400" alt="Screenshot"/> 
+<img src="BluetoothChat2/screenshots/1-launch.png" height="400" alt="Screenshot"/> <img src="BluetoothChat2/screenshots/2-devices.png" height="400" alt="Screenshot"/> <img src="BluetoothChat2/screenshots/3-chat.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------
